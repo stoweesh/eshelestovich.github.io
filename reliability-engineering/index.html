@@ -3106,35 +3106,6 @@ enclosing section
 
 <!--slide-->
 <section class="slide slide0">
-<h2 class="section-slide">What is Reliability ?</h2>
-<div class="sidebarblock">
-<div class="content">
-<p>The probability of failure-free software operation for a specified period of time in a specified environment.</p>
-</div></div>
-<ul>
-<li>
-Correctness
-</li>
-<li>
-Fault-tolerance
-</li>
-<li>
-High availability
-</li>
-<li>
-Scalability
-</li>
-<li>
-Security
-</li>
-<li>
-Performance
-</li>
-</ul>
-</section>
-
-<!--slide-->
-<section class="slide slide0">
 <h2 class="section-slide"></h2>
 <div class="sidebarblock">
 <div class="content">
@@ -20120,19 +20091,16 @@ HJ1FRv8Adpgc6fDrnP71B/wGhvDL7QfOT/vmt31p7fdFSwMfTfCjtexN56/e/u+1dJ/wir/891/7
 <h2 class="section-slide">Who is SRE ?</h2>
 <ul>
 <li>
-Created at Google in 2003 by Ben Treynor
+Created at Google in 2003 by Ben Treynor (1500+ engs now)
 </li>
 <li>
-Now around 1500 engineers at Google
+Came from high-risk industries like Aviation and Health Care
 </li>
 <li>
-Familiar concept in high-risk industries like Aviation and Health Care
+Now common at Twitter, Facebook, Dropbox, Amazon, GitHub, Atlassian
 </li>
 <li>
-Now common at Twitter, Facebook, Dropbox, Amazon, GitHub, Atlassian and Fitbit
-</li>
-<li>
-A dedicated team of Software Engineers with Ops skills to continuously oversee the reliability of the products
+A dedicated team of Software Engineers with Ops and QA skills to continuously oversee the reliability of the products
 </li>
 </ul>
 </section>
@@ -20141,28 +20109,28 @@ A dedicated team of Software Engineers with Ops skills to continuously oversee t
 <section class="slide slide0">
 <h2 class="section-slide">What does SRE do ?</h2>
 <ul>
-<li>
+<li class="slide">
 Maintains large production systems
 </li>
-<li>
+<li class="slide">
 <strong>Consults other teams about best practices</strong>
 </li>
-<li>
+<li class="slide">
 <strong>Identify systemic issues and bottlenecks</strong>
 </li>
-<li>
+<li class="slide">
 Improves tooling and automation
 </li>
-<li>
+<li class="slide">
 Incidents and change management, blameless post-mortems
 </li>
-<li>
+<li class="slide">
 Measures everything!
 </li>
-<li>
+<li class="slide">
 Quantifies failure and availability by setting SLOs, gives teams error budget
 </li>
-<li>
+<li class="slide">
 Free agent, moving between projects and orgs
 </li>
 </ul>
@@ -20170,16 +20138,7 @@ Free agent, moving between projects and orgs
 
 <!--slide-->
 <section class="slide slide0">
-<h2 class="section-slide"></h2>
-<blockquote>
-  <p>Hope is not a strategy</p>
-  <p><cite>-- Traditional SRE saying </cite></p>
-</blockquote>
-</section>
-
-<!--slide-->
-<section class="slide slide0">
-<h2 class="section-slide">Hardware failures</h2>
+<h2 class="section-slide">Hardware Failures</h2>
 <ul>
 <li>
 1000 individual machine failures (2% per year)
@@ -31822,28 +31781,28 @@ Malformed database tests
 <p><a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf" target="_blank">https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf</a></p>
 </div></div>
 <ul>
-<li>
+<li class="slide">
 200 randomly sampled failures of Cassandra, HBase, HDFS, MapReduce, Redis
 </li>
-<li>
+<li class="slide">
 Almost all (92%) are the result of incorrect handling of external errors
 </li>
-<li>
+<li class="slide">
 Majority (77%) can be reproduced by a <strong>simple test</strong>
 </li>
-<li>
+<li class="slide">
 Almost all (98%) are guaranteed to manifest on no more than <strong>3 nodes</strong>
 </li>
-<li>
+<li class="slide">
 Most failures (90%) require no more than <strong>3 input events</strong> to get them to manifest
 </li>
-<li>
+<li class="slide">
 74% of them are <strong>deterministic</strong> – they are guaranteed to happen given the right input
 </li>
-<li>
+<li class="slide">
 For a majority (84%), all of their triggering events are explicitly <strong>logged</strong>
 </li>
-<li>
+<li class="slide">
 Logs are noisy though - average number of log messages printed by each failure is 824
 </li>
 </ul>
@@ -38321,19 +38280,16 @@ dd <span class="k">if</span><span class="o">=</span>/dev/zero <span class="nv">o
 <h2 class="section-slide">Time</h2>
 <ul>
 <li>
-Hardware wonkiness can push clocks days into the future or past
-</li>
-<li>
 Virtualization can case time drift (<a href="https://github.com/docker/for-mac/issues/2076" target="_blank">https://github.com/docker/for-mac/issues/2076</a>)
 </li>
 <li>
-Misconfigured nodes may not have NTP enabled, or may not be able to reach upstream
+Misconfigured nodes may not have NTP enabled, or may not be able to reach the servers
 </li>
 <li>
 NTP servers can lie without quorum
 </li>
 <li>
-NTP corrects large time differentials by jumping the clock to the correct time
+NTP corrects time gaps by jumping the clock to the correct time
 </li>
 <li>
 Even when perfectly synchronized, POSIX time itself is not monotonic (leap second)
@@ -38355,23 +38311,20 @@ JVM concurrent primitives may hang if time jumps backwards
 <section class="slide slide0">
 <h2 class="section-slide">Automate It</h2>
 <ul>
-<li>
+<li class="slide">
 Python/Bash scripts
 </li>
-<li>
+<li class="slide">
 HipChat/Slack/Telegram chat bots
 </li>
-<li>
-Failure Fridays @ PagerDuty, Game Days @ Stripe, DevAwesome Days @ Fitbit
+<li class="slide">
+Failure Fridays @ PagerDuty, Game Days @ Stripe
 </li>
-<li>
+<li class="slide">
 Security pentest bots
 </li>
-<li>
-Chaos Monkey, Chaos Gorilla, CHAMP from Netflix
-</li>
-<li>
-Chaos Cat from PagerDuty
+<li class="slide">
+Chaos Monkey, Chaos Gorilla @ Netflix, Chaos Cat @ PagerDuty
 </li>
 </ul>
 </section>
@@ -42563,22 +42516,22 @@ to withstand turbulent conditions in production.</p>
 <section class="slide slide0">
 <h2 class="section-slide">Best Practices</h2>
 <ul>
-<li>
+<li class="slide">
 Rigorous monitoring, profiling, logging and tracing
 </li>
-<li>
+<li class="slide">
 Learn to estimate your capacity. Back-of-the-envelope calculation. "Numbers Everyone Should Know"
 </li>
-<li>
+<li class="slide">
 Redundancy is a must. Watch out SPOF
 </li>
-<li>
+<li class="slide">
 Adopt Feature Flags/Toggles. Safer deployments. Path to A/B testing
 </li>
-<li>
+<li class="slide">
 Avoid distributed coordination. E.g. ID generation
 </li>
-<li>
+<li class="slide">
 If you can fit your problem in memory on a single machine - do it. StackOverflow sits on 2 machines
 </li>
 </ul>
@@ -42588,22 +42541,22 @@ If you can fit your problem in memory on a single machine - do it. StackOverflow
 <section class="slide slide0">
 <h2 class="section-slide"></h2>
 <ul>
-<li>
+<li class="slide">
 Put limits and timeouts on everything
 </li>
-<li>
+<li class="slide">
 Implement backpressure throughout your system. HTTP 429
 </li>
-<li>
+<li class="slide">
 Retry, but with exponential back-off. Most failures are transient. Don&#8217;t DDOS yourself
 </li>
-<li>
+<li class="slide">
 Use health checks and watchdog processes, re-route requests if needed
 </li>
-<li>
+<li class="slide">
 Find ways to be partially available. Better to give users limited functionality than an error page. 100 ms lookup over 99% of data is usually better than 1 sec lookup over 100% of your data
 </li>
-<li>
+<li class="slide">
 Fail fast, fail often. Restart automatically. Optimize for MTTR
 </li>
 </ul>
