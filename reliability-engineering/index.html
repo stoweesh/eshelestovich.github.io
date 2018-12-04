@@ -3109,7 +3109,10 @@ enclosing section
 <h2 class="section-slide">Who is SRE ?</h2>
 <ul>
 <li class="slide">
-Software Engineers with Ops and QA skills to continuously oversee the reliability of the products
+Software Engineers with Ops and QA skills to ensure product&#8217;s reliability
+</li>
+<li class="slide">
+Responsible for availability, performance, automation, monitoring, change management, capacity planning, emergency response and best practices around all that
 </li>
 <li class="slide">
 Created at Google in 2003 (1500+ engs now)
@@ -3118,35 +3121,7 @@ Created at Google in 2003 (1500+ engs now)
 Came from high-risk industries like Aviation and Health Care
 </li>
 <li class="slide">
-Now common at Twitter, Facebook, Amazon, GitHub &amp; recently Fitbit (2 years old)
-</li>
-</ul>
-</section>
-
-<!--slide-->
-<section class="slide slide0">
-<h2 class="section-slide">What SREs Do ?</h2>
-<ul>
-<li class="slide">
-<strong>Consult other teams about best practices</strong>
-</li>
-<li class="slide">
-<strong>Identify systemic issues and bottlenecks</strong>
-</li>
-<li class="slide">
-Improve tooling and automation
-</li>
-<li class="slide">
-Incidents and change management, blameless post-mortems
-</li>
-<li class="slide">
-Measure everything!
-</li>
-<li class="slide">
-Quantify failure and availability by setting SLOs, gives teams error budget
-</li>
-<li class="slide">
-Free agent, moving between projects and orgs
+Now common at Twitter, Facebook, Amazon, GitHub and Fitbit
 </li>
 </ul>
 </section>
@@ -3157,7 +3132,7 @@ Free agent, moving between projects and orgs
 <div class="sidebarblock">
 <div class="content">
 <div class="title">High Availability</div>
-<p>The outage will be brief because it won&#8217;t take long to redeploy the required component</p>
+<p>Replace the failed component, so the outage is brief</p>
 </div></div>
 <div class="imageblock">
 <div class="content">
@@ -7556,7 +7531,7 @@ bqVYQRyNrwAAAABJRU5ErkJggg==" />
 <div class="sidebarblock">
 <div class="content">
 <div class="title">Fault Tolerance</div>
-<p>Ability to keep operating even if some components fail</p>
+<p>Ability to keep operating even when some pieces fail</p>
 </div></div>
 <div class="imageblock">
 <div class="content">
@@ -13466,7 +13441,7 @@ RU5ErkJggg==" />
 <div class="sidebarblock">
 <div class="content">
 <div class="title">Disaster Recovery</div>
-<p>You are saving your business by ditching your compromised infrastructure</p>
+<p>Give up the compromised infrastructure to save the business</p>
 </div></div>
 <div class="imageblock">
 <div class="content">
@@ -18706,19 +18681,19 @@ TkSuQmCC" />
 <h2 class="section-slide">Hardware Failures</h2>
 <ul>
 <li>
-1000 individual machine failures (2% per year)
+1000 machines (2% per year)
 </li>
 <li>
-Thousands of hard drive failures (4% per year)
+Thousands of hard drives (4% per year)
 </li>
 <li>
-20 rack failures (40-80 machines instantly disappear, 1-6 hours to get back)
+20 racks (40-80 machines instantly disappear, 1-6 hours downtime)
 </li>
 <li>
 8 network maintenances (30-minute random connectivity losses)
 </li>
 <li>
-Slow disks, bad memory, misconfigured machines, etc.
+Slow disks, bad memory, misconfigured switches, etc.
 </li>
 </ul>
 </section>
@@ -18733,10 +18708,7 @@ Slow disks, bad memory, misconfigured machines, etc.
 <p>Example:</p>
 <ul>
 <li class="slide">
-Super reliable servers
-</li>
-<li class="slide">
-MTBF of 30 years
+Super reliable servers (MTBF = 30 years)
 </li>
 <li class="slide">
 10K of those
@@ -19915,7 +19887,7 @@ GAFGgBGoEwTYYK0TWLlQRoARYAQYAUaAEWAEGAFXIcAGq6uQ5HIYAUaAEWAEGAFGgBFgBOoEATZY
 EWAEGAFGgBFwFQJssLoKSS6HEWAEGAFGgBFgBBgBRqBOEGCDtU5g5UIZAUaAEWAEGAFGgBFgBFyF
 wP8DG8KsUDwCbn4AAAAASUVORK5CYII=" />
 </span></p>
-<p>The probability of permanently losing <strong>all 3 replicas</strong> of some data in a <strong>10K-nodes</strong> cluster is <strong>0.25% per day</strong>, that means a <strong>60%</strong> chance of entirely losing the data <strong>in a year</strong></p>
+<p>The probability of permanently losing <strong>all 3 replicas</strong> of some data in a <strong>10K-nodes</strong> cluster is <strong>0.25% per day</strong>, i.e. a <strong>60%</strong> chance of entirely losing the data <strong>in a year</strong></p>
 </section>
 
 <!--slide-->
@@ -24207,15 +24179,17 @@ TkSuQmCC" />
 <div class="sidebarblock">
 <div class="content">
 <div class="title">2018 Lloyd&#8217;s Research</div>
-<p>A <strong>3-day</strong> failure of a top cloud services provider would cost the US economy up to <strong>$15MM</strong>, with most of the burden falling on small and medium-sized businesses</p>
+<p>A <strong>3-day</strong> failure of any top cloud would cost the US economy up to <strong>$15MM</strong>, with the burden falling on small and medium-sized businesses</p>
 </div></div>
 </section>
 
 <!--slide-->
 <section class="slide slide0">
 <h2 class="section-slide">Latency Amplification</h2>
-<p>Server with <strong>1 ms</strong> avg but <strong>1 sec</strong> P99 latency:</p>
 <ul>
+<li class="slide">
+Server with <strong>1 ms</strong> avg but <strong>1 sec</strong> P99 latency
+</li>
 <li class="slide">
 Touch 1 of these - 1% of requests take ≥1 sec
 </li>
@@ -29805,7 +29779,7 @@ yLDa9u8/fn6+//FfP/7n/wBR7+JUM2FIMAAAAABJRU5ErkJggg==" />
 </div>
 <ul>
 <li>
-Amazon: page load slowdown of just <strong>1 sec</strong> costs <strong>$1.6MM</strong> in sales each year<br>
+Amazon: page load slowdown of just <strong>1 sec</strong> costs <strong>$1.6MM</strong> in sales per year<br>
 </li>
 <li>
 Google: by slowing search by <strong>0.5 sec</strong> we could lose <strong>8M</strong> views per day<br>
@@ -29845,42 +29819,6 @@ Byzantine failure (forged request, malicious packet, DDOS, etc)
 <section class="slide slide0">
 <h2 class="section-slide"></h2>
 <h1 id="_what_can_we_do">What Can We Do ?</h1>
-</section>
-
-<!--slide-->
-<section class="slide slide0">
-<h2 class="section-slide"></h2>
-<div class="sidebarblock">
-<div class="content">
-<div class="title">Simple Testing Can Prevent Most Critical Failures</div>
-<p><a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf" target="_blank">https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf</a></p>
-</div></div>
-<ul>
-<li class="slide">
-200 randomly sampled failures of Cassandra, HBase, HDFS, MapReduce &amp; Redis
-</li>
-<li class="slide">
-Almost all (92%) are the result of <strong>incorrect handling</strong> of external errors
-</li>
-<li class="slide">
-Majority (77%) can be reproduced by a <strong>simple test</strong>
-</li>
-<li class="slide">
-Almost all (98%) are guaranteed to manifest on no more than <strong>3 nodes</strong>
-</li>
-<li class="slide">
-Most failures (90%) require no more than <strong>3 input events</strong> to get them to manifest
-</li>
-<li class="slide">
-74% of them are <strong>deterministic</strong> – they are guaranteed to happen given the right input
-</li>
-<li class="slide">
-For a majority (84%), all of their triggering events are <strong>explicitly logged</strong>
-</li>
-<li class="slide">
-Logs are <strong>noisy</strong> though - average number of log messages printed by each failure is 824
-</li>
-</ul>
 </section>
 
 <!--slide-->
@@ -30362,8 +30300,44 @@ Malformed database tests
 
 <!--slide-->
 <section class="slide slide0">
+<h2 class="section-slide"></h2>
+<div class="sidebarblock">
+<div class="content">
+<div class="title">Simple Testing Can Prevent Most Critical Failures</div>
+<p><a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf" target="_blank">https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf</a></p>
+</div></div>
+<ul>
+<li class="slide">
+200 randomly sampled failures of Cassandra, HBase, Hadoop &amp; Redis
+</li>
+<li class="slide">
+92% are the result of <strong>incorrect handling</strong> of external errors
+</li>
+<li class="slide">
+77% can be reproduced by a <strong>simple test</strong>
+</li>
+<li class="slide">
+98% are guaranteed to manifest on no more than <strong>3 nodes</strong>
+</li>
+<li class="slide">
+90% require no more than <strong>3 input events</strong> to catch
+</li>
+<li class="slide">
+74% of them are <strong>deterministic</strong>
+</li>
+<li class="slide">
+For 84%, all of their triggering events were <strong>explicitly logged</strong>
+</li>
+<li class="slide">
+Logs are <strong>noisy</strong> - 824 log messages on avg
+</li>
+</ul>
+</section>
+
+<!--slide-->
+<section class="slide slide0">
 <h2 class="section-slide">No retry on I/O error</h2>
-<p>Data loss incident on large production HBase cluster:</p>
+<p>Data loss incident on a large production HBase cluster:</p>
 <div class="listingblock">
 <div class="content"><div class="highlight"><pre><span></span><span class="k">try</span> <span class="o">{</span>
   <span class="n">splitRegion</span><span class="o">(...);</span>
@@ -30377,7 +30351,7 @@ Malformed database tests
 <!--slide-->
 <section class="slide slide0">
 <h2 class="section-slide">Over-catch Exception</h2>
-<p>1000+ nodes HDFS cluster crashed by an over-catch:</p>
+<p>1000+ nodes HDFS cluster crashed:</p>
 <div class="listingblock">
 <div class="content"><div class="highlight"><pre><span></span><span class="k">try</span> <span class="o">{</span>
   <span class="n">namenode</span><span class="o">.</span><span class="na">registerDatanode</span><span class="o">();</span>
@@ -30391,14 +30365,14 @@ Malformed database tests
 <!--slide-->
 <section class="slide slide0">
 <h2 class="section-slide">Missing Shutdown</h2>
-<p>MapReduce job hang on ResourceManager restart.<br>
+<p>MapReduce job hung on ResourceManager restart.<br>
 It took down a 4000+ nodes Hadoop production cluster:</p>
 <div class="listingblock">
 <div class="content"><div class="highlight"><pre><span></span><span class="k">try</span> <span class="o">{</span>
   <span class="o">...</span>
 <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">IOException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
   <span class="n">LOG</span><span class="o">.</span><span class="na">error</span><span class="o">(</span><span class="err">“</span><span class="n">Error</span> <span class="n">from</span> <span class="n">ResourceManager</span><span class="o">:</span> <span class="n">shutting</span> <span class="n">down</span><span class="o">..</span><span class="err">”</span><span class="o">);</span>
-  <span class="c1">// TODO: somebody plz implement actual shutdown</span>
+  <span class="c1">// TODO: somebody plz implement actual shutdown!</span>
 <span class="o">}</span>
 </pre></div></div></div>
 </section>
@@ -33095,13 +33069,12 @@ Ub/FXvX7Xo1rqy/hf7v9S/X/dt/PUv/9/+4/YacxZINda2bI3JjSeCfXW+orJvDZzbfuqng399lM
 <!--slide-->
 <section class="slide slide0">
 <h2 class="section-slide">Long GC</h2>
-<p><a href="https://github.com/elastic/elasticsearch/issues/2488" target="_blank">https://github.com/elastic/elasticsearch/issues/2488</a><br>
-Can cause split brain, write loss, and even index corruption</p>
+<p>Can cause split brain, write loss, and even db index corruption</p>
 <div class="listingblock">
 <div class="content"><div class="highlight"><pre><span></span><span class="go">python3 -m http.server 8080</span>
 <span class="go">kill -SIGSTOP $(pidof python)</span>
 <span class="go">kill -SIGCONT $(pidof python)</span>
-<span class="go">curl --head --max-time 3 -L localhost:8080</span>
+<span class="go">curl --head --max-time 2 -L localhost:8080</span>
 </pre></div></div></div>
 <div class="admonitionblock">
 <table><tr>
@@ -33115,11 +33088,10 @@ Can cause split brain, write loss, and even index corruption</p>
 <!--slide-->
 <section class="slide slide0">
 <h2 class="section-slide">Network Failure</h2>
-<p>Bad switch, buggy firmware, misconfigured firewall</p>
+<p>Bad switch, crappy firmware, misconfigured firewall</p>
 <div class="listingblock">
 <div class="content"><div class="highlight"><pre><span></span><span class="go">ifconfig lo0 down</span>
 <span class="go">iptables -A INPUT -p icmp -j DROP</span>
-<span class="go">iptables -D ... # revert</span>
 </pre></div></div></div>
 <div class="admonitionblock">
 <table><tr>
@@ -33133,22 +33105,20 @@ Can cause split brain, write loss, and even index corruption</p>
 <!--slide-->
 <section class="slide slide0">
 <h2 class="section-slide">Unreliable Network</h2>
-<p>Clients from New Zealand &amp; China, flooded link, 3G/EDGE</p>
+<p>Clients from New Zealand or China, noisy link, 3G/EDGE</p>
 <div class="listingblock">
 <div class="content"><div class="highlight"><pre><span></span><span class="go">tc qdisc add dev ens4 root netem delay 500ms 20ms drop 40%</span>
-<span class="go">tc qdisc add dev ens4 root netem duplicate 30%</span>
+<span class="go">tc qdisc add dev ens4 root netem duplicate 40%</span>
 <span class="go">tc qdisc add dev ens4 root netem delay 250ms drop 10% corrupt 10% reorder 10% rate 750kbps # poor 3G/EDGE</span>
 <span class="go">tc qdisc del dev ens4 root netem # revert</span>
-<span class="go">ping localhost -c 10000</span>
 </pre></div></div></div>
 <div class="admonitionblock">
 <table><tr>
 <td class="icon caution">
 </td>
-<td class="content">Since Linux 2.6. On OSX and BSD use <span class="monospaced">ipfw</span> or <span class="monospaced">pfctl</span>.</td>
+<td class="content">since Linux 2.6. On OSX &amp; BSD use <span class="monospaced">ipfw</span> or <span class="monospaced">pfctl</span>.</td>
 </tr></table>
 </div>
-<p><a href="https://github.com/tylertreat/comcast" target="_blank">https://github.com/tylertreat/comcast</a></p>
 </section>
 
 <!--slide-->
@@ -33178,7 +33148,7 @@ dd <span class="k">if</span><span class="o">=</span>/dev/zero <span class="nv">o
 Virtualization can cause time drift (<a href="https://github.com/docker/for-mac/issues/2076" target="_blank">https://github.com/docker/for-mac/issues/2076</a>)
 </li>
 <li class="slide">
-Misconfigured nodes may not have NTP enabled, or may not be able to reach quorum
+Misconfigured nodes may not have NTP enabled or may not be able to reach quorum
 </li>
 <li class="slide">
 NTP corrects time gaps by jumping the clock
@@ -33206,7 +33176,7 @@ Python/Bash scripts
 HipChat/Slack/Telegram chat bots
 </li>
 <li class="slide">
-Security Pentest bots
+Security pentest bots
 </li>
 <li class="slide">
 Chaos Monkey, Chaos Gorilla, CHAMP @ Netflix, Chaos Cat @ PagerDuty
@@ -37022,16 +36992,16 @@ yI1x7gAAAABJRU5ErkJggg==" />
 Rigorous monitoring, logging, profiling and tracing
 </li>
 <li class="slide">
-Find ways to be partially available. Better to give users limited or stale functionality than an error
+Be partially available. Limited or stale functionality is better than an error
 </li>
 <li class="slide">
-Learn to estimate your capacity. Back-of-the-envelope calculations. "Numbers Everyone Should Know"
+Estimate your capacity. Back-of-the-envelope calculations. "Numbers Everyone Should Know"
 </li>
 <li class="slide">
-Avoid distributed coordination. E.g. ID generation, global lock, leader election
+Avoid distributed coordination. E.g. ID generators, global locks, leader election
 </li>
 <li class="slide">
-If your problem fits in memory on a single machine - do it. StackOverflow sits on 2 machines
+Over-engineering. StackOverflow sits on 2 machines
 </li>
 </ul>
 </section>
@@ -37044,7 +37014,7 @@ If your problem fits in memory on a single machine - do it. StackOverflow sits o
 Put limits and timeouts on everything. Bounded queues, API rate limits
 </li>
 <li class="slide">
-Backpressure &amp; throttling for endpoints. HTTP 429
+Backpressure &amp; throttling. HTTP 429
 </li>
 <li class="slide">
 Retry, with random capped exponential back-off. Most failures are transient. Don&#8217;t DDOS yourself
