@@ -5,8 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Reliability Engineering</title>
         <meta name="viewport" content="width=1024, user-scalable=no">
-        <meta name="author" content="by Eugene Shelestovich @ Fitbit" />
+        <meta name="author" content="Eugene Shelestovich, Fitbit" />
         <meta name="generator" content="cdk" />
+        <meta name="presdate" content="stoweesh@gmail.com" />
         
         <!-- Core and extension CSS files -->
 
@@ -3100,7 +3101,8 @@ enclosing section
 <body class="deck-container">
 <section class="slide" id="title-slide">
         <h1>Reliability Engineering</h1>
-        <h3>by Eugene Shelestovich @ Fitbit</h3>
+        <h3>Eugene Shelestovich, Fitbit</h3>
+        <h4>stoweesh@gmail.com</h4>
 </section>
 </section>
 
@@ -3112,7 +3114,7 @@ enclosing section
 Software Engineers with Ops and QA skills to ensure product&#8217;s reliability
 </li>
 <li class="slide">
-Responsible for availability, performance, automation, monitoring, change management, capacity planning, emergency response and best practices around all that
+Responsible for availability, performance, automation, monitoring, change management, capacity planning, emergency response and best practices
 </li>
 <li class="slide">
 Created at Google in 2003 (1500+ engs now)
@@ -18680,19 +18682,19 @@ TkSuQmCC" />
 <section class="slide slide0">
 <h2 class="section-slide">Hardware Failures</h2>
 <ul>
-<li>
+<li class="slide">
 1000 machines (2% per year)
 </li>
-<li>
+<li class="slide">
 Thousands of hard drives (4% per year)
 </li>
-<li>
+<li class="slide">
 20 racks (40-80 machines instantly disappear, 1-6 hours downtime)
 </li>
-<li>
+<li class="slide">
 8 network maintenances (30-minute random connectivity losses)
 </li>
-<li>
+<li class="slide">
 Slow disks, bad memory, misconfigured switches, etc.
 </li>
 </ul>
@@ -24178,7 +24180,6 @@ TkSuQmCC" />
 </div>
 <div class="sidebarblock">
 <div class="content">
-<div class="title">2018 Lloyd&#8217;s Research</div>
 <p>A <strong>3-day</strong> failure of any top cloud would cost the US economy up to <strong>$15MM</strong>, with the burden falling on small and medium-sized businesses</p>
 </div></div>
 </section>
@@ -33072,9 +33073,9 @@ Ub/FXvX7Xo1rqy/hf7v9S/X/dt/PUv/9/+4/YacxZINda2bI3JjSeCfXW+orJvDZzbfuqng399lM
 <p>Can cause split brain, write loss, and even db index corruption</p>
 <div class="listingblock">
 <div class="content"><div class="highlight"><pre><span></span><span class="go">python3 -m http.server 8080</span>
+<span class="go">curl --head --max-time 2 -L localhost:8080</span>
 <span class="go">kill -SIGSTOP $(pidof python)</span>
 <span class="go">kill -SIGCONT $(pidof python)</span>
-<span class="go">curl --head --max-time 2 -L localhost:8080</span>
 </pre></div></div></div>
 <div class="admonitionblock">
 <table><tr>
@@ -36986,10 +36987,13 @@ yI1x7gAAAABJRU5ErkJggg==" />
 <h2 class="section-slide">Best Practices</h2>
 <ul>
 <li class="slide">
+12factor.net
+</li>
+<li class="slide">
 "Eat Your Own Dog Food", "You build it, you run it" (c) Werner Vogels
 </li>
 <li class="slide">
-Rigorous monitoring, logging, profiling and tracing
+Rigorous monitoring, logging, profiling and tracing. "Hope is not a strategy"
 </li>
 <li class="slide">
 Be partially available. Limited or stale functionality is better than an error
@@ -37001,7 +37005,7 @@ Estimate your capacity. Back-of-the-envelope calculations. "Numbers Everyone Sho
 Avoid distributed coordination. E.g. ID generators, global locks, leader election
 </li>
 <li class="slide">
-Over-engineering. StackOverflow sits on 2 machines
+Don&#8217;t over-engineer. StackOverflow sits on 2 machines
 </li>
 </ul>
 </section>
