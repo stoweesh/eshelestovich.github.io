@@ -83,6 +83,7 @@ Note: some "dead tree" books can be found on the [Minsk office bookshelf](https:
 📃 🇷🇺 [+10 к интеллекту](https://habr.com/ru/post/135075/)
 
 ## Hiring
+📃 [Interviewing candidates](https://ericlippert.com/2015/06/08/interviewing-candidates/)  
 📃 [We Hire the Best, Just Like Everyone Else](https://blog.codinghorror.com/we-hire-the-best-just-like-everyone-else/)  
 📃 [How I Hire Programmers](http://www.aaronsw.com/weblog/hiring)  
 📃 [10 Hiring Practices That Will Keep Me From Working for You](https://dev.to/jacobherrington/10-hiring-practices-that-will-keep-me-from-working-for-you-32o5)  
@@ -90,8 +91,8 @@ Note: some "dead tree" books can be found on the [Minsk office bookshelf](https:
 📃 [13 Common Hiring Biases To Watch Out For](https://harver.com/blog/hiring-biases/)   
 📃 [Getting the Interview Phone Screen Right](https://blog.codinghorror.com/getting-the-interview-phone-screen-right/)  
 📃 [Fitbit Backend Interview Questions](https://wiki.fitbit.com/display/dev/Backend+Interview+Questions)  
-📃 [Fitbit Software Engineering Career Ladder](https://wiki.fitbit.com/display/IPD/Software+Engineering+Career+Ladder)  
-*Antipatterns... Minsk hiring slides*
+📃 [Fitbit Software Engineering Career Ladder](https://wiki.fitbit.com/display/IPD/Software+Engineering+Career+Ladder)   
+📃 [Minsk Interviewing Talk 2019](https://docs.google.com/presentation/d/1j_eoJyRICMd2R1iK1ZVMKyIi6N6UXQb0th6wWXy3vpg/edit?usp=sharing)  
 
 ## Technology
 📃 [A reference checklist for topics which should be covered before going to production](https://github.com/mtdvio/going-to-production)  
@@ -99,7 +100,8 @@ Note: some "dead tree" books can be found on the [Minsk office bookshelf](https:
 📃 [15 Fundamental Laws of Software Development](https://www.exceptionnotfound.net/fundamental-laws-of-software-development/)  
 📃 [Tech Debt Snowball – A Simple Strategy to Manage Technical Debt](https://www.alexkras.com/tech-debt-snowball-a-simple-strategy-to-manage-technical-debt/)  
 📃 [The Secret to Amazons Success Internal APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/)  
-*Link to Engineering Curriculum*
+
+See also [Backend Engineer Curriculum](../eng-curriculum.md)
 
 ## Presentation
 📃 [How to make your graphs less terrible](https://imgur.com/WntrM6p)  
