@@ -2,7 +2,7 @@
 
 ## What Is This
 
-Would you like to improve your skills as an Engineering Manager, but don't know where to start ? There are tons of resources on the Internet, and it's easy to get lost. Here we attempt to maintain a curated list of verified and proven articles, books and videos about people management and related topics. It's by no means a comprehensive course, just some guidance.
+Would you like to improve your skills as a manager, but don't know where to start ? There are tons of resources on the Internet, and it's easy to get lost. Here we attempt to maintain a curated list of verified and proven articles, books and videos about people management and related topics. It's by no means a comprehensive course, just some guidance.
 
 ## How To Use
 
