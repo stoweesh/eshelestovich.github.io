@@ -24,29 +24,39 @@ Note: some "dead tree" books can be found on the [Minsk office bookshelf](https:
 📃 🇷🇺 [12 самых популярных статей блога Стратоплана по менеджменту](https://habr.com/ru/company/stratoplan/blog/257301/)
 
 ## Transition
-📚 [First, Break All The Rules: What the World's Greatest Managers Do Differently](https://www.amazon.com/dp/1595621113/ref=cm_sw_em_r_mt_dp_U_kDUTDbA313HF6 "Gallup presents the remarkable findings of its revolutionary study of more than 80,000 managers in First, Break All the Rules, revealing what the world’s greatest managers do differently. With vital performance and career lessons and ideas for how to apply them, it is a must-read for managers at every level.")  
+📚 [First, Break All The Rules: What the World's Greatest Managers Do Differently](https://www.amazon.com/dp/1595621113/ref=cm_sw_em_r_mt_dp_U_kDUTDbA313HF6 "You’re rarely given much training and the examples around you are often more of what *not* to do. This book is a compilation of over 80,000 managers and 2,000,000 employees studied by Gallup and the key actions they found that make great managers, which are not what you’d expect. ")   
 📃 [Things I've learned transitioning from engineer to engineering manager](https://blog.pragmaticengineer.com/things-ive-learned-transitioning-from-engineer-to-engineering-manager/)  
+📃 [Unintuitive Things I’ve Learned about Management](https://medium.com/the-year-of-the-looking-glass/unintuitive-things-i-ve-learned-about-management-f2c42d68604b#.2z9av4pzs)  
 📃 [Learnings from six months as a first-time engineering manager](http://www.dein.fr/2014-01-29-learnings-from-six-months-as-a-first-time.html)  
+📃 [21 management things I learned at Imgur](https://medium.com/@gerstenzang/21-management-things-i-learned-at-imgur-7abb72bdf8bf)  
 📃 [What's awful about being a manager ?](https://www.onebigfluke.com/2016/04/whats-awful-building-software.html)   
 📃 [The Engineer/Manager Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)  
 📃 [What are the primary traits of a great people manager?](https://www.quora.com/What-are-the-primary-traits-of-a-great-people-manager)  
 🎬 [The Engineer to Manager Transition, by Former Twitter Director of Engineering David Loftesness](https://www.youtube.com/watch?v=qaHEy1I2M5Q)  
 
 ## People
-📚 [Start with NO...The Negotiating Tools that the Pros Don't Want You to Know](https://www.amazon.com/dp/0609608002/ref=cm_sw_em_r_mt_dp_U_.DUTDbVBSXDZ7 "Start with No introduces a system of decision-based negotiation that teaches you how to understand and control these emotions. Think a win-win solution is the best way to make the deal? Think again.")  
-📚 [Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity](https://www.amazon.com/dp/1250235375/ref=cm_sw_em_r_mt_dp_U_SeTTDb3S8TWMS "Radical Candor is a framework on how to relate to people. Striving to achieve even 50% of it will make you a better leader.")    
-📚 [Crucial Conversations Tools for Talking When Stakes Are High](https://www.amazon.com/dp/0071771328/ref=cm_sw_em_r_mt_dp_U_FcUTDbTKRVNAW "Prepare for high-stakes situations. Transform anger and hurt feelings into powerful dialogue. Make it safe to talk about almost anything. Be persuasive, not abrasive")  
 📚 [How to win Friends & Influence People](https://www.amazon.com/dp/8189297813/ref=cm_sw_em_r_mt_dp_U_WbUTDb5R9132C "This is literally a timeless classic for anyone interested in leadership.")     
 📚 [Managing Humans: Biting and Humorous Tales of a Software Engineering Manager](https://www.amazon.com/dp/1484221575/ref=cm_sw_em_r_mt_dp_U_pwUTDb6X96D5A "Read hilarious stories with serious lessons that Michael Lopp extracts from his varied and sometimes bizarre experiences as a manager at Apple, Pinterest, Palantir, Netscape, Symantec, Slack, and Borland.")    
 📃 [Cognitive bias cheat sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)  
 📃 [One on One Meeting Questions Great Managers Ask Their Employees](https://medium.com/swlh/one-on-one-meeting-questions-great-managers-ask-their-employees-dfb33c31f2f2)   
 📃 [Fitbit Engineering Internal Transfer Process](https://wiki.fitbit.com/display/IPD/Engineering+Internal+Transfer+Process)  
-📃 🇷🇺 [10 фраз, которые стоит чаще произносить на работе каждому](https://lifehacker.ru/2018/01/31/10-fraz-na-rabote/)  
 📃 🇷🇺 [Коллеги, от которых лучше держаться подальше](http://www.prostobankir.com.ua/hr/stati/kollegi_ot_kotoryh_luchshe_derzhatsya_podalshe)  
 
-## Team
-📚 [The Five Dysfunctions of a Team: A Leadership Fable](https://www.amazon.com/dp/0787960756/ref=cm_sw_em_r_mt_dp_U_-IUTDbNZAPDQZ "Throughout the story, author reveals the five dysfunctions which go to the very heart of why teams even the best ones-often struggle. He outlines a powerful model and actionable steps that can be used to overcome these common hurdles and build a cohesive, effective team.")  
+## Communication
+📚 [Start with NO...The Negotiating Tools that the Pros Don't Want You to Know](https://www.amazon.com/dp/0609608002/ref=cm_sw_em_r_mt_dp_U_.DUTDbVBSXDZ7 "Start with No introduces a system of decision-based negotiation that teaches you how to understand and control these emotions. Think a win-win solution is the best way to make the deal? Think again.")  
+📚 [Never Split the Difference: Negotiating As If Your Life Depended On It](https://www.amazon.com/dp/0062407805/ref=cm_sw_em_r_mt_dp_U_0XtUDbQR4JEJ3 "Negotiating in today’s world is a different game and there’s a constant power struggle between sides. The author of this book was a hostage negotiator, where saving half the hostages is not a success.")  
+📚 [Crucial Conversations Tools for Talking When Stakes Are High](https://www.amazon.com/dp/0071771328/ref=cm_sw_em_r_mt_dp_U_FcUTDbTKRVNAW "Prepare for high-stakes situations. Transform anger and hurt feelings into powerful dialogue. Make it safe to talk about almost anything. Be persuasive, not abrasive")  
+📃 🇷🇺 [10 фраз, которые стоит чаще произносить на работе каждому](https://lifehacker.ru/2018/01/31/10-fraz-na-rabote/)  
+
+## Leadership
 📚 [Turn the Ship Around!: A True Story of Turning Followers into Leaders](https://www.amazon.com/dp/1591846404/ref=cm_sw_em_r_mt_dp_U_ODUTDb7NJVZN6 "The best how-to manual anywhere for managers on delegating, training, and driving flawless execution.")  
+📚 [The Score Takes Care of Itself](https://www.amazon.com/dp/1591843472/ref=cm_sw_em_r_mt_dp_U_.HfUDbVJTPMKN "Bill Walsh is one of the most successful coaches in NFL history and more of his assistants went on to be successful head coaches than any other ever. This is his defacto book on his leadership approach and is filled with great insights.")  
+📚 [Boyd: The Fighter Pilot Who Changed the Art of War](https://www.amazon.com/dp/0316796883/ref=cm_sw_em_r_mt_dp_U_lKtUDbMNYEY3C "John Boyd may be the most remarkable unsung hero in all of American military history.")  
+📚 [Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity](https://www.amazon.com/dp/1250235375/ref=cm_sw_em_r_mt_dp_U_SeTTDb3S8TWMS "Radical Candor is a framework on how to relate to people. Striving to achieve even 50% of it will make you a better leader.")    
+
+## Team
+📚 [Tribal Leadership: Leveraging Natural Groups to Build a Thriving Organization](https://www.amazon.com/dp/0061251321/ref=cm_sw_em_r_mt_dp_U_cTfUDbV8QS2GY "If you read only one book on culture, this is the one to read. It has an easy to follow process for identifying where you and your company are at and specifically how to get everyone on your team to a higher level.")  
+📚 [The Five Dysfunctions of a Team: A Leadership Fable](https://www.amazon.com/dp/0787960756/ref=cm_sw_em_r_mt_dp_U_-IUTDbNZAPDQZ "Throughout the story, author reveals the five dysfunctions which go to the very heart of why teams even the best ones-often struggle. He outlines a powerful model and actionable steps that can be used to overcome these common hurdles and build a cohesive, effective team.")  
 📃 [Scaling Engineering Teams via Writing Things Down and Sharing](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/)  
 📃 [8 Ways to Crank Up Speed in Software Development](https://www.targetprocess.com/articles/speed-in-software-development/)  
 🎬 [Autonomy Without Chaos, by Google Engineering Director David Singleton](https://www.youtube.com/watch?v=RKgZmHhSD9I)  
@@ -95,15 +105,16 @@ Note: some "dead tree" books can be found on the [Minsk office bookshelf](https:
 📃 [Minsk Interviewing Talk 2019](https://docs.google.com/presentation/d/1j_eoJyRICMd2R1iK1ZVMKyIi6N6UXQb0th6wWXy3vpg/edit?usp=sharing)  
 
 ## Technology
+See [Backend Engineer Curriculum](../eng-curriculum.md)  
+
 📃 [A reference checklist for topics which should be covered before going to production](https://github.com/mtdvio/going-to-production)  
 📃 [The 3 Basic Tools of Systems Engineering](http://widgetsandshit.com/teddziuba/2010/12/the-3-basic-tools-of-systems-engineering.html)  
 📃 [15 Fundamental Laws of Software Development](https://www.exceptionnotfound.net/fundamental-laws-of-software-development/)  
 📃 [Tech Debt Snowball – A Simple Strategy to Manage Technical Debt](https://www.alexkras.com/tech-debt-snowball-a-simple-strategy-to-manage-technical-debt/)  
 📃 [The Secret to Amazons Success Internal APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/)  
 
-See also [Backend Engineer Curriculum](../eng-curriculum.md)
-
 ## Presentation
+📚 [Pitch Anything: An Innovative Method for Presenting, Persuading, and Winning the Deal](https://www.amazon.com/dp/0071752854/ref=cm_sw_em_r_mt_dp_U_2XtUDb0PJHDZ8 "This book breaks down a great step-by-step process to control a discussion and steer it to you make the strongest case you can.")  
 📃 [How to make your graphs less terrible](https://imgur.com/WntrM6p)  
 📃 [WTFM: Write the Fine Manual](https://docs.google.com/presentation/d/1plJbtQZXKBymEiw9sYy9xqnzMleWuYO461R3VrocOWQ/edit?usp=sharing)  
 
