@@ -112,4 +112,4 @@ Note: some "dead tree" books can be found on the [Minsk office bookshelf](https:
 📃 [WTFM: Write the Fine Manual](https://docs.google.com/presentation/d/1plJbtQZXKBymEiw9sYy9xqnzMleWuYO461R3VrocOWQ/edit?usp=sharing)  
 
 ## Technology
-See [Software Engineer Curriculum](../eng-curriculum.md)  
+See [Software Engineer Curriculum](./eng-curriculum.md)  
