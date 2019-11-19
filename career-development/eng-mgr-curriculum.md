@@ -46,6 +46,7 @@ Note: some "dead tree" books can be found on the [Minsk office bookshelf](https:
 📚 [Start with NO...The Negotiating Tools that the Pros Don't Want You to Know](https://www.amazon.com/dp/0609608002/ref=cm_sw_em_r_mt_dp_U_.DUTDbVBSXDZ7 "Start with No introduces a system of decision-based negotiation that teaches you how to understand and control these emotions. Think a win-win solution is the best way to make the deal? Think again.")  
 📚 [Never Split the Difference: Negotiating As If Your Life Depended On It](https://www.amazon.com/dp/0062407805/ref=cm_sw_em_r_mt_dp_U_0XtUDbQR4JEJ3 "Negotiating in today’s world is a different game and there’s a constant power struggle between sides. The author of this book was a hostage negotiator, where saving half the hostages is not a success.")  
 📚 [Crucial Conversations Tools for Talking When Stakes Are High](https://www.amazon.com/dp/0071771328/ref=cm_sw_em_r_mt_dp_U_FcUTDbTKRVNAW "Prepare for high-stakes situations. Transform anger and hurt feelings into powerful dialogue. Make it safe to talk about almost anything. Be persuasive, not abrasive")  
+📃 [Layoffs. How We Got Here, the Financial Details and How We’re Moving Forward](https://open.buffer.com/layoffs-and-moving-forward/)  
 📃 🇷🇺 [10 фраз, которые стоит чаще произносить на работе каждому](https://lifehacker.ru/2018/01/31/10-fraz-na-rabote/)  
 
 ## Leadership
@@ -80,7 +81,8 @@ Note: some "dead tree" books can be found on the [Minsk office bookshelf](https:
 📃 [Think big, start small, act fast](https://hackernoon.com/think-big-start-small-act-fast-6fdab1f771ea)  
 📃 [Disagree and Commit: The Importance of disagreement in decision making](https://hackernoon.com/disagree-and-commit-the-importance-of-disagreement-in-decision-making-b31d1b5f1bdc)  
 📃 [Stevey's Google Platforms Rant](https://gist.github.com/chitchcock/1281611)  
-📃 [Facebook Corporate Culture](https://www.linkedin.com/pulse/6-posters-reflect-facebook-corporate-culture-cenk-eser/)  
+📃 [Facebook Corporate Culture](https://www.linkedin.com/pulse/6-posters-reflect-facebook-corporate-culture-cenk-eser/)   
+📃 [Valve Employee Handbook](https://steamcdn-a.akamaihd.net/apps/valve/Valve_NewEmployeeHandbook.pdf)  
 
 ## Productivity
 📚 [Your Brain at Work: Strategies for Overcoming Distraction, Regaining Focus, and Working Smarter All Day Long](https://www.amazon.com/dp/0061771295/ref=cm_sw_em_r_mt_dp_U_8pUTDbMZ23JHA "The author burrows deep inside the heads of one modern two-career couple to examine how each partner processes the workday―revealing how a more nuanced understanding of the brain can allow us to better organize, prioritize, recall, and sort our daily lives.")  
@@ -104,17 +106,10 @@ Note: some "dead tree" books can be found on the [Minsk office bookshelf](https:
 📃 [Fitbit Software Engineering Career Ladder](https://wiki.fitbit.com/display/IPD/Software+Engineering+Career+Ladder)   
 📃 [Minsk Interviewing Talk 2019](https://docs.google.com/presentation/d/1j_eoJyRICMd2R1iK1ZVMKyIi6N6UXQb0th6wWXy3vpg/edit?usp=sharing)  
 
-## Technology
-See [Backend Engineer Curriculum](../eng-curriculum.md)  
-
-📃 [A reference checklist for topics which should be covered before going to production](https://github.com/mtdvio/going-to-production)  
-📃 [The 3 Basic Tools of Systems Engineering](http://widgetsandshit.com/teddziuba/2010/12/the-3-basic-tools-of-systems-engineering.html)  
-📃 [15 Fundamental Laws of Software Development](https://www.exceptionnotfound.net/fundamental-laws-of-software-development/)  
-📃 [Tech Debt Snowball – A Simple Strategy to Manage Technical Debt](https://www.alexkras.com/tech-debt-snowball-a-simple-strategy-to-manage-technical-debt/)  
-📃 [The Secret to Amazons Success Internal APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/)  
-
 ## Presentation
 📚 [Pitch Anything: An Innovative Method for Presenting, Persuading, and Winning the Deal](https://www.amazon.com/dp/0071752854/ref=cm_sw_em_r_mt_dp_U_2XtUDb0PJHDZ8 "This book breaks down a great step-by-step process to control a discussion and steer it to you make the strongest case you can.")  
 📃 [How to make your graphs less terrible](https://imgur.com/WntrM6p)  
 📃 [WTFM: Write the Fine Manual](https://docs.google.com/presentation/d/1plJbtQZXKBymEiw9sYy9xqnzMleWuYO461R3VrocOWQ/edit?usp=sharing)  
 
+## Technology
+See [Software Engineer Curriculum](../eng-curriculum.md)  
