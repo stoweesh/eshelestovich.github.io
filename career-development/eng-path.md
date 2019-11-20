@@ -1,4 +1,4 @@
-# Software Engineer Curriculum
+# Software Engineer Curriculum (WORK IN PROGRESS...)
 
 ## Architecture & Design
 📚 [Software Architecture for Developers](https://leanpub.com/b/software-architecture)   

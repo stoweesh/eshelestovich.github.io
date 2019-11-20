@@ -11,7 +11,7 @@ You'd like to improve your skills, but don't know where to start ? There are ton
 5. Discuss with colleagues or with your manager on the next 1-on-1.
 6. Give it a try! Practice makes perfect.
 
-Note: some "dead tree" books can be found on the [Minsk office bookshelf](https://wiki.fitbit.com/display/intranet/Minsk+Bookshelf>).
+Note for the Minsk folks: some "dead tree" books can be found on the [office bookshelf](https://wiki.fitbit.com/display/intranet/Minsk+Bookshelf>).
 
 ## Career Path
 [Engineering Manager](./eng-mgr-path.md)  
