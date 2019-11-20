@@ -14,5 +14,6 @@ You'd like to improve your skills, but don't know where to start ? There are ton
 Note: some "dead tree" books can be found on the [Minsk office bookshelf](https://wiki.fitbit.com/display/intranet/Minsk+Bookshelf>).
 
 ## Career Path
-[Software Engineer](./eng-curriculum.md)  
-[Engineering Manager](./eng-mgr-curriculum.md)  
+[Engineering Manager](./eng-mgr-path.md)  
+[Software Engineer](./eng-path.md)  
+[QA Engineer](./qa-path.md)  
