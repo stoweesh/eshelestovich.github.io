@@ -71,7 +71,8 @@
 
 ## Productivity
 📚 [Your Brain at Work: Strategies for Overcoming Distraction, Regaining Focus, and Working Smarter All Day Long](https://www.amazon.com/dp/0061771295/ref=cm_sw_em_r_mt_dp_U_8pUTDbMZ23JHA "The author burrows deep inside the heads of one modern two-career couple to examine how each partner processes the workday―revealing how a more nuanced understanding of the brain can allow us to better organize, prioritize, recall, and sort our daily lives.")  
-📚 [Getting Things Done: The Art of Stress-Free Productivity](https://www.amazon.com/dp/0143126563/ref=cm_sw_em_r_mt_dp_U_vqUTDb6QFY838 "“GTD” is now shorthand for an entire way of approaching professional and personal tasks, and has spawned an entire culture of websites, organizational tools, seminars, and offshoots.")  
+📚 [Getting Things Done: The Art of Stress-Free Productivity](https://www.amazon.com/dp/0143126563/ref=cm_sw_em_r_mt_dp_U_vqUTDb6QFY838 "“GTD” is now shorthand for an entire way of approaching professional and personal tasks, and has spawned an entire culture of websites, organizational tools, seminars, and offshoots.")   
+📚 [Thinking, Fast and Slow](https://www.amazon.com/dp/0374533555/ref=cm_sw_em_r_mt_dp_U_WOp3Db8GWC63Q "The author reveals where we can and cannot trust our intuitions and how we can tap into the benefits of slow thinking. He offers practical and enlightening insights into how choices are made in both our business and our personal lives―and how we can use different techniques to guard against the mental glitches that often get us into trouble.")   
 📃 [How I got to 200 productive hours a month](https://qotoqot.com/blog/improving-focus/)  
 📃 [Smart Guy Productivity Pitfalls](http://bookofhook.blogspot.com/2013/03/smart-guy-productivity-pitfalls.html?m=1)  
 📃 [The RACI Responsibility Model as Explained by Star Wars](https://www.linkedin.com/pulse/raci-responsibility-model-explained-star-wars-matthew-inman/)  
@@ -97,4 +98,4 @@
 📃 [WTFM: Write the Fine Manual](https://docs.google.com/presentation/d/1plJbtQZXKBymEiw9sYy9xqnzMleWuYO461R3VrocOWQ/edit?usp=sharing)  
 
 ## Technology
-See [Software Engineer Curriculum](./eng-curriculum.md)  
+See [Software Engineer Path](./eng-path.md)  
